@@ -1,0 +1,1794 @@
+/* =========================
+   GENERAL
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f4;
+    color: #1d1d1d;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-label {
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #174d3b;
+    margin-bottom: 12px;
+}
+
+
+/* =========================
+   DEMO BANNER
+========================= */
+
+.demo-banner {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 8px 15px;
+    font-size: 0.85rem;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.custom-navbar {
+    background-color: #0d3328;
+    padding: 18px 0;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85) !important;
+    margin-left: 12px;
+    font-size: 0.95rem;
+    transition: 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: white !important;
+}
+
+.quote-btn {
+    background-color: white;
+    color: #0d3328;
+    border-radius: 6px;
+    padding: 10px 18px;
+    font-weight: 700;
+    border: none;
+}
+
+.quote-btn:hover {
+    background-color: #e7eee9;
+    color: #0d3328;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.primary-btn {
+    background-color: #174d3b;
+    color: white;
+    padding: 13px 24px;
+    border-radius: 6px;
+    font-weight: 700;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.primary-btn:hover {
+    background-color: #0d3328;
+    color: white;
+}
+
+.light-btn {
+    background-color: white;
+    color: #0d3328;
+    padding: 13px 24px;
+    border-radius: 6px;
+    font-weight: 700;
+    border: none;
+}
+
+.light-btn:hover {
+    background-color: #e8eee9;
+    color: #0d3328;
+}
+
+
+/* =========================
+   ABOUT HERO
+========================= */
+
+.about-hero {
+    min-height: 520px;
+
+    background:
+        linear-gradient(
+            rgba(7, 24, 19, 0.68),
+            rgba(7, 24, 19, 0.68)
+        ),
+        url("../images/about-cleaning.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+}
+
+.about-hero h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 24px;
+}
+
+.about-hero .section-label {
+    color: #d8e8df;
+}
+
+.about-hero-text {
+    max-width: 620px;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+}
+
+
+/* =========================
+   STORY SECTION
+========================= */
+
+.about-story-section {
+    background-color: white;
+    padding: 90px 0;
+}
+
+.about-image-wrapper {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.about-image {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about-story-section h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #181818;
+}
+
+.about-story-section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 18px;
+}
+
+
+/* =========================
+   WHY CHOOSE US
+========================= */
+
+.why-us-section {
+    padding: 90px 0;
+    background-color: #f4f5f1;
+}
+
+.section-heading {
+    max-width: 720px;
+    margin: 0 auto 50px auto;
+}
+
+.section-heading h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.section-heading p {
+    color: #666;
+}
+
+.about-card {
+    background-color: white;
+    padding: 35px 28px;
+    border-radius: 10px;
+    height: 100%;
+    border: 1px solid #e5e5e5;
+    transition: 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+}
+
+.about-card-number {
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: #174d3b;
+    color: white;
+
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.about-card h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.35rem;
+    margin-bottom: 15px;
+}
+
+.about-card p {
+    color: #666;
+    margin-bottom: 0;
+}
+
+
+/* =========================
+   MISSION
+========================= */
+
+.mission-section {
+    background-color: white;
+    padding: 80px 0;
+}
+
+.mission-box {
+    background-color: #0d3328;
+    color: white;
+    border-radius: 12px;
+    padding: 60px;
+}
+
+.mission-box h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.7rem;
+    margin-bottom: 18px;
+}
+
+.mission-box p {
+    max-width: 700px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0;
+}
+
+.light-label {
+    color: #b9d0c4;
+}
+
+
+/* =========================
+   CTA
+========================= */
+
+.about-cta {
+    padding: 100px 20px;
+    background-color: #f4f5f1;
+}
+
+.about-cta h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.about-cta p {
+    max-width: 650px;
+    margin: 0 auto 28px auto;
+    color: #666;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.site-footer {
+    background-color: #071c16;
+    color: white;
+    padding: 65px 0 20px;
+}
+
+.site-footer h4,
+.site-footer h5 {
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.site-footer p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.75);
+    transition: 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-btn {
+    background-color: white;
+    color: #0d3328;
+    font-weight: 700;
+    padding: 11px 20px;
+    border-radius: 6px;
+}
+
+.footer-btn:hover {
+    background-color: #e5ece8;
+    color: #0d3328;
+}
+
+.site-footer hr {
+    margin-top: 45px;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer-bottom p {
+    font-size: 0.85rem;
+    margin-bottom: 0;
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 991px) {
+
+    .navbar-nav {
+        padding-top: 20px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 0;
+        margin-bottom: 8px;
+    }
+
+    .quote-btn {
+        margin-top: 10px;
+    }
+
+    .about-hero {
+        min-height: 460px;
+    }
+
+    .about-hero h1 {
+        font-size: 3rem;
+    }
+
+    .about-image {
+        height: 400px;
+    }
+
+    .mission-box {
+        padding: 45px 35px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .about-hero {
+        min-height: 430px;
+        text-align: left;
+    }
+
+    .about-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-hero-text {
+        font-size: 1rem;
+    }
+
+    .about-story-section,
+    .why-us-section,
+    .mission-section,
+    .about-cta {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    .about-story-section h2,
+    .section-heading h2,
+    .mission-box h2,
+    .about-cta h2 {
+        font-size: 2.2rem;
+    }
+
+    .about-image {
+        height: 320px;
+    }
+
+    .mission-box {
+        padding: 35px 25px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .demo-banner {
+        font-size: 0.7rem;
+    }
+
+    .about-hero h1 {
+        font-size: 2.1rem;
+    }
+
+    .about-card {
+        padding: 28px 22px;
+    }
+
+    .about-cta h2 {
+        font-size: 2rem;
+    }
+}
+/* =========================
+   SERVICES HERO
+========================= */
+
+.services-hero {
+    min-height: 500px;
+
+    background:
+        linear-gradient(
+            rgba(7, 24, 19, 0.72),
+            rgba(7, 24, 19, 0.72)
+        ),
+        url("../images/service-residential.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+}
+
+.services-hero h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 22px;
+}
+
+.services-hero-text {
+    max-width: 620px;
+    font-size: 1.08rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 28px;
+}
+
+
+/* =========================
+   SERVICES INTRO
+========================= */
+
+.services-intro-section {
+    background-color: white;
+    padding: 85px 0 45px;
+}
+
+
+/* =========================
+   MAIN SERVICE CARDS
+========================= */
+
+.main-services-section {
+    background-color: #f4f5f1;
+    padding: 45px 0 90px;
+}
+
+.service-detail-card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.05);
+}
+
+.service-detail-image {
+    width: 100%;
+    height: 100%;
+    min-height: 480px;
+    object-fit: cover;
+}
+
+.service-detail-content {
+    padding: 55px;
+}
+
+.service-detail-content h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #181818;
+}
+
+.service-detail-content p {
+    color: #5d5d5d;
+    margin-bottom: 24px;
+}
+
+.service-detail-content h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #174d3b;
+    margin-bottom: 16px;
+}
+
+.service-list {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.service-list li {
+    margin-bottom: 9px;
+    color: #4d4d4d;
+}
+
+.service-list li::marker {
+    color: #174d3b;
+}
+
+
+/* =========================
+   WHAT'S INCLUDED
+========================= */
+
+.included-section {
+    background-color: white;
+    padding: 90px 0;
+}
+
+.included-card {
+    height: 100%;
+    background-color: #f7f8f5;
+    border: 1px solid #e5e8e4;
+    border-radius: 10px;
+    padding: 32px;
+    transition: 0.3s ease;
+}
+
+.included-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.07);
+}
+
+.included-card h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.45rem;
+    color: #0d3328;
+    margin-bottom: 14px;
+}
+
+.included-card p {
+    color: #666;
+    margin-bottom: 0;
+}
+
+
+/* =========================
+   CUSTOM PLAN
+========================= */
+
+.custom-plan-section {
+    background-color: #f4f5f1;
+    padding: 80px 0;
+}
+
+.custom-plan-box {
+    background-color: #0d3328;
+    color: white;
+    padding: 60px;
+    border-radius: 12px;
+}
+
+.custom-plan-box h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.7rem;
+    margin-bottom: 18px;
+}
+
+.custom-plan-box p {
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 720px;
+    margin-bottom: 0;
+}
+
+
+/* =========================
+   SERVICES CTA
+========================= */
+
+.services-cta {
+    background-color: white;
+    padding: 100px 20px;
+}
+
+.services-cta h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.services-cta p {
+    max-width: 640px;
+    margin: 0 auto 28px;
+    color: #666;
+}
+
+
+/* =========================
+   RESPONSIVE SERVICES
+========================= */
+
+@media (max-width: 991px) {
+
+    .services-hero {
+        min-height: 450px;
+    }
+
+    .services-hero h1 {
+        font-size: 3rem;
+    }
+
+    .service-detail-image {
+        min-height: 350px;
+        max-height: 430px;
+    }
+
+    .service-detail-content {
+        padding: 40px;
+    }
+
+    .custom-plan-box {
+        padding: 45px 35px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .services-hero {
+        min-height: 420px;
+    }
+
+    .services-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .services-hero-text {
+        font-size: 1rem;
+    }
+
+    .services-intro-section,
+    .main-services-section,
+    .included-section,
+    .custom-plan-section,
+    .services-cta {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    .service-detail-content {
+        padding: 32px 25px;
+    }
+
+    .service-detail-content h2 {
+        font-size: 2rem;
+    }
+
+    .service-detail-image {
+        min-height: 280px;
+    }
+
+    .custom-plan-box {
+        padding: 35px 25px;
+    }
+
+    .custom-plan-box h2,
+    .services-cta h2 {
+        font-size: 2.2rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .services-hero h1 {
+        font-size: 2.1rem;
+    }
+
+    .service-detail-content {
+        padding: 28px 20px;
+    }
+
+    .included-card {
+        padding: 26px 22px;
+    }
+
+    .services-cta h2 {
+        font-size: 2rem;
+    }
+}
+/* =========================
+   BUSINESS LOGO
+========================= */
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white !important;
+    font-weight: 700;
+}
+
+.brand-logo img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+.brand-logo span {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+
+/* Footer Logo */
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.footer-brand img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+.footer-brand h4 {
+    margin: 0;
+}
+
+
+/* Mobile */
+
+@media (max-width: 480px) {
+
+    .brand-logo img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .brand-logo span {
+        font-size: 0.8rem;
+    }
+
+    .footer-brand img {
+        width: 50px;
+        height: 50px;
+    }
+}
+/* =========================
+   GALLERY HERO
+========================= */
+
+.gallery-hero {
+    min-height: 430px;
+
+    background:
+        linear-gradient(
+            rgba(7, 24, 19, 0.72),
+            rgba(7, 24, 19, 0.72)
+        ),
+        url("../images/gallery-1.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+}
+
+.gallery-hero h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.gallery-hero-text {
+    max-width: 620px;
+    font-size: 1.08rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+/* =========================
+   GALLERY INTRO
+========================= */
+
+.gallery-intro-section {
+    background-color: white;
+    padding: 85px 0 45px;
+}
+
+
+/* =========================
+   GALLERY GRID
+========================= */
+
+.gallery-grid-section {
+    background-color: #f4f5f1;
+    padding: 45px 0 90px;
+}
+
+.gallery-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    border: 1px solid #e5e5e5;
+    transition: 0.3s ease;
+}
+
+.gallery-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+}
+
+.gallery-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.gallery-card-text {
+    padding: 22px;
+}
+
+.gallery-card-text h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.35rem;
+    margin-bottom: 6px;
+    color: #181818;
+}
+
+.gallery-card-text p {
+    margin-bottom: 0;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+
+/* =========================
+   BEFORE & AFTER
+========================= */
+
+.before-after-section {
+    background-color: white;
+    padding: 90px 0;
+}
+
+.before-after-card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.before-after-image {
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+}
+
+.image-label {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+
+    background-color: #0d3328;
+    color: white;
+
+    padding: 8px 14px;
+    border-radius: 5px;
+
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    z-index: 2;
+}
+
+
+/* =========================
+   GALLERY CTA
+========================= */
+
+.gallery-cta {
+    background-color: #0d3328;
+    color: white;
+    padding: 100px 20px;
+}
+
+.gallery-cta h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.gallery-cta p {
+    max-width: 650px;
+    margin: 0 auto 28px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* =========================
+   MOBILE GALLERY
+========================= */
+
+@media (max-width: 991px) {
+
+    .gallery-hero {
+        min-height: 390px;
+    }
+
+    .gallery-hero h1 {
+        font-size: 3rem;
+    }
+
+    .gallery-image {
+        height: 260px;
+    }
+
+    .before-after-image {
+        height: 350px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .gallery-hero {
+        min-height: 360px;
+    }
+
+    .gallery-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .gallery-intro-section,
+    .gallery-grid-section,
+    .before-after-section,
+    .gallery-cta {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    .gallery-image {
+        height: 240px;
+    }
+
+    .before-after-image {
+        height: 300px;
+    }
+
+    .gallery-cta h2 {
+        font-size: 2.2rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .gallery-hero h1 {
+        font-size: 2.1rem;
+    }
+
+    .gallery-image {
+        height: 220px;
+    }
+
+    .before-after-image {
+        height: 250px;
+    }
+
+    .gallery-cta h2 {
+        font-size: 2rem;
+    }
+}
+/* =========================
+   CONTACT HERO
+========================= */
+
+.contact-hero {
+    min-height: 420px;
+
+    background:
+        linear-gradient(
+            rgba(7, 24, 19, 0.72),
+            rgba(7, 24, 19, 0.72)
+        ),
+        url("../images/home-cleaning.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+}
+
+.contact-hero h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-hero-text {
+    max-width: 620px;
+    font-size: 1.08rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+/* =========================
+   CONTACT SECTION
+========================= */
+
+.contact-section {
+    background-color: #f4f5f1;
+    padding: 90px 0;
+}
+
+.contact-info-box,
+.contact-form-box {
+    background-color: white;
+    border-radius: 12px;
+    padding: 40px;
+    height: 100%;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
+}
+
+.contact-info-box h2,
+.contact-form-box h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-info-box > p,
+.contact-form-box > p {
+    color: #666;
+}
+
+
+/* =========================
+   CONTACT INFO
+========================= */
+
+.contact-info-item {
+    border-top: 1px solid #e7e7e7;
+    padding: 22px 0;
+}
+
+.contact-info-item:first-of-type {
+    margin-top: 30px;
+}
+
+.contact-info-item h4 {
+    color: #0d3328;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.contact-info-item p {
+    margin: 0;
+    color: #555;
+}
+
+.contact-info-item a {
+    color: #174d3b;
+    font-weight: 600;
+}
+
+.contact-info-item a:hover {
+    color: #0d3328;
+}
+
+.contact-note {
+    margin-top: 25px;
+    padding: 18px;
+    background-color: #f4f5f1;
+    border-left: 4px solid #174d3b;
+    border-radius: 6px;
+}
+
+.contact-note p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+/* =========================
+   CONTACT FORM
+========================= */
+
+.contact-form-box .form-label {
+    font-weight: 700;
+    color: #262626;
+    margin-bottom: 7px;
+}
+
+.contact-form-box .form-control,
+.contact-form-box .form-select {
+    border: 1px solid #d8d8d8;
+    border-radius: 7px;
+    padding: 12px 14px;
+    min-height: 48px;
+}
+
+.contact-form-box textarea.form-control {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.contact-form-box .form-control:focus,
+.contact-form-box .form-select:focus {
+    border-color: #174d3b;
+    box-shadow: 0 0 0 0.2rem rgba(23, 77, 59, 0.12);
+}
+
+.contact-submit-btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+/* =========================
+   HOW IT WORKS
+========================= */
+
+.contact-steps-section {
+    background-color: white;
+    padding: 90px 0;
+}
+
+.contact-step-card {
+    height: 100%;
+    background-color: #f7f8f5;
+    border: 1px solid #e5e8e4;
+    border-radius: 10px;
+    padding: 32px;
+    transition: 0.3s ease;
+}
+
+.contact-step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.07);
+}
+
+.contact-step-number {
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #174d3b;
+    color: white;
+
+    border-radius: 50%;
+    font-weight: 700;
+
+    margin-bottom: 22px;
+}
+
+.contact-step-card h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+}
+
+.contact-step-card p {
+    color: #666;
+    margin-bottom: 0;
+}
+
+
+/* =========================
+   CONTACT CTA
+========================= */
+
+.contact-cta {
+    background-color: #0d3328;
+    color: white;
+    padding: 100px 20px;
+}
+
+.contact-cta h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.contact-cta p {
+    max-width: 620px;
+    margin: 0 auto 28px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* =========================
+   MOBILE CONTACT
+========================= */
+
+@media (max-width: 991px) {
+
+    .contact-hero {
+        min-height: 390px;
+    }
+
+    .contact-hero h1 {
+        font-size: 3rem;
+    }
+
+    .contact-info-box,
+    .contact-form-box {
+        padding: 32px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .contact-hero {
+        min-height: 360px;
+    }
+
+    .contact-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .contact-section,
+    .contact-steps-section,
+    .contact-cta {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    .contact-info-box,
+    .contact-form-box {
+        padding: 28px 22px;
+    }
+
+    .contact-info-box h2,
+    .contact-form-box h2 {
+        font-size: 2rem;
+    }
+
+    .contact-cta h2 {
+        font-size: 2.2rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .contact-hero h1 {
+        font-size: 2.1rem;
+    }
+
+    .contact-step-card {
+        padding: 26px 22px;
+    }
+
+    .contact-cta h2 {
+        font-size: 2rem;
+    }
+}
+/* =========================
+   HOME HERO
+========================= */
+
+.home-hero {
+    min-height: 560px;
+
+    background:
+        linear-gradient(
+            rgba(7, 24, 19, 0.70),
+            rgba(7, 24, 19, 0.70)
+        ),
+        url("../images/home-cleaning.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+}
+
+.home-hero h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 24px;
+}
+
+.home-hero-text {
+    max-width: 650px;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.hero-secondary-btn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 11px 22px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.hero-secondary-btn:hover {
+    background-color: white;
+    color: #0d3328;
+}
+
+
+/* =========================
+   HOME SERVICES
+========================= */
+
+.home-services-section {
+    background-color: #f4f5f1;
+    padding: 90px 0;
+}
+
+.service-preview-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 32px 26px;
+    height: 100%;
+    border: 1px solid #e5e5e5;
+    transition: 0.3s ease;
+}
+
+.service-preview-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+}
+
+.service-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #e8efe9;
+    border-radius: 50%;
+
+    font-size: 1.5rem;
+    margin-bottom: 22px;
+}
+
+.service-preview-card h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.35rem;
+    margin-bottom: 12px;
+}
+
+.service-preview-card p {
+    color: #666;
+    margin-bottom: 18px;
+}
+
+.service-preview-card a {
+    color: #174d3b;
+    font-weight: 700;
+}
+
+.service-preview-card a:hover {
+    color: #0d3328;
+}
+
+
+/* =========================
+   HOME ABOUT
+========================= */
+
+.home-about-section {
+    background-color: white;
+    padding: 90px 0;
+}
+
+.home-about-image-wrapper {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.home-about-image {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.home-about-section h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.home-about-section p {
+    color: #5f5f5f;
+    margin-bottom: 18px;
+}
+
+
+/* =========================
+   HOME WHY CHOOSE US
+========================= */
+
+.home-why-section {
+    background-color: #0d3328;
+    color: white;
+    padding: 90px 0;
+}
+
+.home-why-section .section-heading h2 {
+    color: white;
+}
+
+.home-why-section .section-heading p {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.why-card {
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    padding: 30px;
+    height: 100%;
+    transition: 0.3s ease;
+}
+
+.why-card:hover {
+    transform: translateY(-5px);
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+.why-icon {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background-color: white;
+    color: #0d3328;
+
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+}
+
+.why-card h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.35rem;
+    margin-bottom: 12px;
+}
+
+.why-card p {
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 0;
+}
+
+
+/* =========================
+   HOME GALLERY
+========================= */
+
+.home-gallery-section {
+    background-color: white;
+    padding: 90px 0;
+}
+
+.home-gallery-section h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.home-gallery-section p {
+    color: #666;
+}
+
+.gallery-preview-image {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.gallery-preview-image:hover {
+    transform: scale(1.02);
+}
+
+
+/* =========================
+   HOME CTA
+========================= */
+
+.home-cta {
+    background-color: #174d3b;
+    color: white;
+    padding: 100px 20px;
+}
+
+.home-cta h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.home-cta p {
+    max-width: 650px;
+    margin: 0 auto 28px;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+
+/* =========================
+   MOBILE HOME
+========================= */
+
+@media (max-width: 991px) {
+
+    .home-hero {
+        min-height: 500px;
+    }
+
+    .home-hero h1 {
+        font-size: 3rem;
+    }
+
+    .home-about-image {
+        height: 400px;
+    }
+
+    .gallery-preview-image {
+        height: 280px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .home-hero {
+        min-height: 470px;
+    }
+
+    .home-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-hero-text {
+        font-size: 1rem;
+    }
+
+    .home-services-section,
+    .home-about-section,
+    .home-why-section,
+    .home-gallery-section,
+    .home-cta {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+    .home-about-section h2,
+    .home-gallery-section h2,
+    .home-cta h2 {
+        font-size: 2.2rem;
+    }
+
+    .home-about-image {
+        height: 330px;
+    }
+
+    .gallery-preview-image {
+        height: 250px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .home-hero h1 {
+        font-size: 2.1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    .service-preview-card {
+        padding: 26px 22px;
+    }
+
+    .home-about-image {
+        height: 280px;
+    }
+
+    .gallery-preview-image {
+        height: 220px;
+    }
+
+    .home-cta h2 {
+        font-size: 2rem;
+    }
+}
+/* =========================
+   PHONE MOCKUP
+========================= */
+
+.phone-preview-card {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.phone-mockup {
+    width: 260px;
+    margin: 0 auto;
+    background-color: #111;
+    padding: 14px;
+    border-radius: 36px;
+    position: relative;
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+}
+
+.phone-notch {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110px;
+    height: 20px;
+    background-color: #111;
+    border-radius: 0 0 14px 14px;
+    z-index: 2;
+}
+
+.phone-screen {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 26px;
+    display: block;
+}
+
+.phone-preview-text {
+    margin-top: 16px;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+    .phone-mockup {
+        width: 220px;
+    }
+
+    .phone-screen {
+        height: 430px;
+    }
+}
